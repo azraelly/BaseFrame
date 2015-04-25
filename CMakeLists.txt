@@ -1,0 +1,2 @@
+PROJECT(BaseFrame)
+ADD_SUBDIRECTORY(Src)

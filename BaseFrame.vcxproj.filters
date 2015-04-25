@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{2c0b6e62-9675-4107-9073-a976ae958bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Header Files">
+      <UniqueIdentifier>{3fd772e7-f8cf-42fb-8b1b-5c49b9f79562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Source Files">
+      <UniqueIdentifier>{6e184876-2a72-4dd8-87e0-a42022d17513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppUnit">
+      <UniqueIdentifier>{d52bb7cd-6446-40d9-a718-b65eb4dc5c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppUnit\Source Files">
+      <UniqueIdentifier>{40375c18-da44-4eeb-8160-4f08b64fc06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CppUnit\Header Files">
+      <UniqueIdentifier>{77e71ee3-58e7-4491-8134-90549549f00a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\BaseFrame\CppUnit\CppUnit.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\CppUnitException.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\estring.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\Guards.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\Orthodox.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\RepeatedTest.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\Test.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\TestCaller.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\TestCase.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\TestDecorator.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\TestFailure.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\TestResult.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\TestRunner.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\TestSetup.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\TestSuite.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\CppUnit\TextTestResult.h">
+      <Filter>CppUnit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\Core\Exception.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\Core\Platform.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\Core\Platform_POSIX.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\Core\Platform_WIN32.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\Core\UnWindows.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\Core\Error.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\Core\Config.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\Core\Alignment.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\BaseFrame.h" />
+    <ClInclude Include="Include\BaseFrame\Core\Bugcheck.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\BaseFrame\Core\Debugger.h">
+      <Filter>Core\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\CppUnit\CppUnitException.cpp">
+      <Filter>CppUnit\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CppUnit\TestCase.cpp">
+      <Filter>CppUnit\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CppUnit\TestDecorator.cpp">
+      <Filter>CppUnit\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CppUnit\TestFailure.cpp">
+      <Filter>CppUnit\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CppUnit\TestResult.cpp">
+      <Filter>CppUnit\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CppUnit\TestRunner.cpp">
+      <Filter>CppUnit\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CppUnit\TestSuite.cpp">
+      <Filter>CppUnit\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CppUnit\TextTestResult.cpp">
+      <Filter>CppUnit\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Core\Error.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Core\Exception.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Core\Bugcheck.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Core\Debugger.cpp">
+      <Filter>Core\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
